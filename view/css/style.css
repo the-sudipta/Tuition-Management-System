@@ -1,0 +1,241 @@
+.drawer_container{
+    display: grid;
+    grid-template-columns:repeat(12, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas:"a a a b b b b b b b b b";
+    height: 90vh;
+}
+
+.login_signup_container{
+    display: grid;
+    align-items: center;
+    margin-top: 5%;
+    grid-template-columns:repeat(12, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas:"b b b a a a a a a c c c";
+    height: 90vh;
+}
+
+.review_card_container{
+    display: grid;
+    grid-template-columns:repeat(12, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas:
+            "b b b b b b b b b b b b"
+            "d d d a a a a a a e e e"
+            "d d d a a a a a a e e e"
+            "d d d a a a a a a e e e"
+            "d d d a a a a a a e e e"
+            "c c c c c c c c c c c c";
+    height: 90vh;
+}
+
+
+
+.drawer_a{
+    grid-area: a;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+
+    /*background-color: #44a60c;*/
+
+}
+.drawer_b{
+    grid-area: b;
+
+
+    width: 100%;
+    height: 70%;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+
+.login_signup_a{
+    grid-area: a;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+
+//background-color: #44a60c;
+
+}
+.login_signup_b{
+    grid-area: b;
+//background-color: #b8072f;
+
+    width: 100%;
+    height: 70%;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.login_signup_c{
+    grid-area: c;
+//background-color: #b8072f;
+
+    width: 100%;
+    height: 70%;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+
+.review_card_a {
+    grid-area: a;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    /*background-color: #44a60c;*/
+}
+
+.review_card_b{
+    grid-area: b;
+//background-color: #b8072f;
+
+    width: 100%;
+    height: 70%;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.review_card_c{
+    grid-area: c;
+//background-color: #b8072f;
+
+    width: 100%;
+    height: 70%;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.review_card_d{
+    grid-area: d;
+//background-color: #b8072f;
+
+    width: 100%;
+    height: 70%;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.review_card_e{
+    grid-area: e;
+//background-color: #b8072f;
+
+    width: 100%;
+    height: 70%;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+
+
+
+.login_signup_overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+/* Base Modal Styles */
+.login_signup_modal {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    height: 500px;
+    width: 100%;
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+
+/* Close Button Styles */
+.login_signup_close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.error-label {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: red;
+    font-size: 12px;
+}
+
+
+.Admin_Profile_body{margin-top:20px;
+    color: #9b9ca1;
+}
+.Admin_Profile_bg-secondary-soft {
+    background-color: rgba(208, 212, 217, 0.1) !important;
+}
+.Admin_Profile_rounded {
+    border-radius: 5px !important;
+}
+.Admin_Profile_py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+.Admin_Profile_px-4 {
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+}
+.Admin_Profile_file-upload .Admin_Profile_square {
+    height: 250px;
+    width: 250px;
+    margin: auto;
+    vertical-align: middle;
+    border: 1px solid #e5dfe4;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.Admin_Profile_text-secondary {
+    --bs-text-opacity: 1;
+    color: rgba(208, 212, 217, 0.5) !important;
+}
+.Admin_Profile_btn-success-soft {
+    color: #28a745;
+    background-color: rgba(40, 167, 69, 0.1);
+}
+.Admin_Profile_btn-danger-soft {
+    color: #dc3545;
+    background-color: rgba(220, 53, 69, 0.1);
+}
+.Admin_Profile_form-control {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #29292e;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #e5dfe4;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 5px;
+    -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
