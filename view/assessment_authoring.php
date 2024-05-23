@@ -2,8 +2,8 @@
 
     session_start();
 
-    $Login_page = '/Tuition-Management-System/view/login.php';
-    $Homepage = '/Tuition-Management-System/view/homepage.php';
+    $Login_page = '/view/login.php';
+    $Homepage = '/view/homepage.php';
 
     if($_SESSION["user_id"] <= 0){
         //        echo '<h1>'.$_SESSION["user_id"] .'</h1>';
@@ -13,7 +13,7 @@
 
 require_once '../model/QuestionRepo.php';
 
-    $Assessment_Page = '/Tuition-Management-System/view/assessment_authoring.php';
+    $Assessment_Page = 'view/assessment_authoring.php';
 
     // Mock data for demonstration purposes
     $questions = findAllQuestions();

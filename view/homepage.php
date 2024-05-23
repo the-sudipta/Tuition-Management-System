@@ -1,9 +1,9 @@
 <?php
 
 session_start();
-$Login_page = '/Tuition-Management-System/view/login.php';
-$Logout_file = '/Tuition-Management-System/Controllers/LogoutController.php';
-$Profile_Page = '/Tuition-Management-System/view/profile.php';
+$Login_page = '/view/login.php';
+$Logout_file = '/Controllers/LogoutController.php';
+$Profile_Page = '/view/profile.php';
 
 if($_SESSION["user_id"] <= 0){
 //    echo '<h1>'.$_SESSION["user_id"] .'</h1>';

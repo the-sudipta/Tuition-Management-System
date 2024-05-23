@@ -5,9 +5,9 @@
     require_once '../model/UserRepo.php';
     require_once '../model/Grade_FeedbackRepo.php';
 
-    $Login_page = '/Tuition-Management-System/view/login.php';
-    $Homepage = '/Tuition-Management-System/view/homepage.php';
-    $Grade_Feedback_Page = '/Tuition-Management-System/view/grading_feedback.php';
+    $Login_page = '/view/login.php';
+    $Homepage = '/view/homepage.php';
+    $Grade_Feedback_Page = '/view/grading_feedback.php';
 
     if($_SESSION["user_id"] <= 0){
 //        echo '<h1>'.$_SESSION["user_id"] .'</h1>';

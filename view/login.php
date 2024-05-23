@@ -1,7 +1,7 @@
 <?php
 
-    $LoginController = '/Tuition-Management-System/Controllers/LoginController.php';
-    $Registration_Page = '/Tuition-Management-System/view/registration.php';
+    $LoginController = '/Controllers/LoginController.php';
+    $Registration_Page = '/view/registration.php';
 
 
 ?>

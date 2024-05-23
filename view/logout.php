@@ -1,6 +1,6 @@
 <?php
 
-    $Login_Page = '/Tuition-Management-System/view/login.php';
+    $Login_Page = '/view/login.php';
 
 
 ?>

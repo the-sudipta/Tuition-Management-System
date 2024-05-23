@@ -1,7 +1,7 @@
 <?php
 
 
-$RegistrationController_File = "/Tuition-Management-System/Controllers/RegistrationController.php";
+$RegistrationController_File = "/Controllers/RegistrationController.php";
 
 
 // Initialize variables to store user input and errors

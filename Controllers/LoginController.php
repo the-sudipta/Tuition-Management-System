@@ -5,9 +5,9 @@ require_once '../model/UserRepo.php';
 
 session_start();
 
-$Login_page =   '/Tuition-Management-System/view/login.php';
+$Login_page =   '/view/login.php';
 
-$Dashboard_page = '/Tuition-Management-System/view/homepage.php';
+$Dashboard_page = '/view/homepage.php';
 
 $everythingOK = FALSE;
 $everythingOKCounter = 0;

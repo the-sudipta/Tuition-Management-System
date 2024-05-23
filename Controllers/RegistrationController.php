@@ -5,8 +5,8 @@ require_once '../model/UserRepo.php';
 
 session_start();
 
-$Login_page =   '/Tuition-Management-System/view/login.php';
-$Signup_Page = '/Tuition-Management-System/view/registration.php';
+$Login_page =   '/view/login.php';
+$Signup_Page = '/view/registration.php';
 
 $everythingOK = FALSE;
 $everythingOKCounter = 0;

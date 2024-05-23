@@ -2,9 +2,9 @@
 function db_conn()
 {
     $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $dbname = "tuition_management_system";
+    $username = "u899200555_tuition_manage";
+    $password = "Tuition_Manage#1";
+    $dbname = "u899200555_tuition_manage";
 
     // Create connection
     $conn = new mysqli($servername, $username, $password, $dbname);

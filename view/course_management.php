@@ -3,8 +3,8 @@
 session_start();
 require_once '../model/CourseRepo.php';
 
-$Homepage = '/Tuition-Management-System/view/homepage.php';
-$Login_page = '/Tuition-Management-System/view/login.php';
+$Homepage = '/view/homepage.php';
+$Login_page = '/view/login.php';
 if($_SESSION["user_id"] <= 0){
 //        echo '<h1>'.$_SESSION["user_id"] .'</h1>';
     header("Location: {$Login_page}");

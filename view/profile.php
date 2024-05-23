@@ -3,10 +3,10 @@
     session_start();
     require_once '../model/UserRepo.php';
 
-    $Login_page = '/Tuition-Management-System/view/login.php';
-    $Logout_File = '/Tuition-Management-System/Controllers/LogoutController.php';
-    $Homepage = '/Tuition-Management-System/view/homepage.php';
-    $Profile_page = '/Tuition-Management-System/view/profile.php';
+    $Login_page = '/view/login.php';
+    $Logout_File = '/Controllers/LogoutController.php';
+    $Homepage = '/view/homepage.php';
+    $Profile_page = '/view/profile.php';
 
     if($_SESSION["user_id"] <= 0){
         //        echo '<h1>'.$_SESSION["user_id"] .'</h1>';

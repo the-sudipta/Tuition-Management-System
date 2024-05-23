@@ -5,5 +5,5 @@ $_SESSION["data"] = null;
 $_SESSION["user_id"] = -1;
 setcookie("user_id", -1, time() - 3600, "/");
 session_destroy();
-$Logout_Page = '/Tuition-Management-System/view/logout.php';
+$Logout_Page = '/view/logout.php';
 header("Location: {$Logout_Page}");
