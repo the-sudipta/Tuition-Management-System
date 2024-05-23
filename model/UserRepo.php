@@ -82,8 +82,8 @@ function findUserByEmailAndPassword($email, $password) {
     // Use prepared statement to prevent SQL injection
     $selectQuery = 'SELECT * FROM `user` WHERE `email` = ? AND `password` = ?';
 
-    try {
         echo 'UserRepo Done';
+    try {
         $stmt = $conn->prepare($selectQuery);
 
         // Bind parameters
