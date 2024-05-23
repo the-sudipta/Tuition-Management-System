@@ -83,6 +83,7 @@ function findUserByEmailAndPassword($email, $password) {
     $selectQuery = 'SELECT * FROM `user` WHERE `email` = ? AND `password` = ?';
 
     try {
+        echo 'UserRepo Done';
         $stmt = $conn->prepare($selectQuery);
 
         // Bind parameters
@@ -98,7 +99,6 @@ function findUserByEmailAndPassword($email, $password) {
         $user = $result->fetch_assoc();
 
         // Close the statement
-        echo 'UserRepo Done';
         $stmt->close();
     } catch (Exception $e) {
         echo $e->getMessage();
