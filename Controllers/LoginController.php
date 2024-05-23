@@ -74,9 +74,9 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
 
     if ($everythingOK && $everythingOKCounter === 0){
 
-        echo "all ok";
+        echo "<br>all ok<br>";
         $data = findUserByEmailAndPassword($email, $password);
-        echo '\nData id = '.$data["id"].'\n';
+        echo 'Data id = '.$data["id"].'<br>';
         $_SESSION["data"] = $data;
         $_SESSION["user_id"] = $data["id"];
         // Set the cookie with an expiration time
@@ -84,17 +84,17 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
 
 
         if($_SESSION["data"]["id"] > 0){
-            echo "\n\nAll Clear to Dashboard";
+            echo "<br><br>All Clear to Dashboard<br>";
             header("Location: {$Dashboard_page}");
         }else{
-            echo "\nRedirecting to first page because id not found";
+            echo "<br>Redirecting to first page because id not found<br>";
             header("Location: {$Login_page}");
         }
 
     }else{
         $_SESSION['emailError'] = $emailError;
         $_SESSION['passwordError'] = $passwordError;
-        echo "\nRedirecting to first page because Email or Password Error";
+        echo "<br>Redirecting to first page because Email or Password Error<br>";
         header("Location: {$Login_page}");
     }
 
