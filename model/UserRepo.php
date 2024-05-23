@@ -98,6 +98,7 @@ function findUserByEmailAndPassword($email, $password) {
         $user = $result->fetch_assoc();
 
         // Close the statement
+        echo 'UserRepo Done';
         $stmt->close();
     } catch (Exception $e) {
         echo $e->getMessage();
