@@ -1,20 +1,20 @@
 <br/>
 <div align="center">
 <a href="#">
-<img src="https://raw.githubusercontent.com/the-sudipta/Car_Shop_Management_System/main/DOCUMENTATIONS/images/Car%20Shop%20Management%20System.png" alt="Logo" width="100" height="100">
+<img src="https://raw.githubusercontent.com/the-sudipta/Tuition-Management-System/main/DOCUMENTATIONS/images/Tuition%20management%20System%20Logo.png" alt="Logo" width="100" height="100">
 </a>
 <h3 align="center">Tuition Management System</h3>
 <p align="center">
 A website to manage students and tutors
 <br/>
-<a href="https://github.com/the-sudipta/Car_Shop_Management_System/raw/main/DOCUMENTATIONS/Project_Manual_Car_Shop_Management_System.pdf" download>
+<a href="https://github.com/the-sudipta/Tuition-Management-System/raw/main/DOCUMENTATIONS/Project_Manual_Tuition-Management-System.pdf" download>
     <strong>Explore the docs »</strong>
 </a>
 
 <br/>
-<a href="https://car-shop-management-system.sudiptakumar.com">View Demo .</a>  
-<a href="https://github.com/the-sudipta/Car_Shop_Management_System/issues">Report Bug .</a>
-<a href="https://github.com/the-sudipta/Car_Shop_Management_System/issues">Request Feature</a>
+<a href="https://tuition-management-system.sudiptakumar.com/">View Demo .</a>  
+<a href="https://github.com/the-sudipta/Tuition-Management-System/issues">Report Bug .</a>
+<a href="https://github.com/the-sudipta/Tuition-Management-System/issues">Request Feature</a>
 </p>
 </div>
 
@@ -30,17 +30,15 @@ A website to manage students and tutors
 
  ## :star2: About The Project
 
-![Product Video Gif](https://github.com/the-sudipta/Car_Shop_Management_System/blob/main/DOCUMENTATIONS/images/Car%20Shop%20Management%20System.gif?raw=true)
+![Product Video Gif](https://github.com/the-sudipta/Tuition-Management-System/blob/main/DOCUMENTATIONS/images/Car%20Shop%20Management%20System.gif?raw=true)
 
-This project is a comprehensive car dealership management system designed for sellers, allowing them to 
-efficiently manage and operate their inventory through an integrated web platform. Upon logging in from the 
-login page, which includes a registration option, sellers are directed to their personalized homepage. Here, 
-they can showcase new, used, and rental cars, with functionalities to add or remove vehicles from each category. 
-Additionally, sellers have the capability to manage existing listings by editing car prices and quantities, as 
-well as halting the sale of any vehicle currently available on the site. The system also provides powerful 
-reporting tools, enabling sellers to generate detailed PDF reports on monthly or yearly sales, revenue, and 
-profit across new, used, and rental car transactions. This robust solution aims to streamline the selling 
-process, offering a seamless and user-friendly interface for car dealership management.
+This project is a comprehensive tuition management system designed to streamline educational administration for teachers. 
+It features user-friendly interfaces for logging in, registering, password management, and profile updates. Teachers can 
+efficiently manage courses, track student attendance, provide grading and feedback, and utilize communication tools. The 
+system also offers advanced analytics, reporting capabilities, and assessment authoring tools. Mid-term development focuses
+on implementing page layouts, PHP validation, database connections, and secure session management, while the final term 
+aims to refine prepared statements, enhance validation with JavaScript and AJAX, and ensure a polished, fully functional 
+web interface by December 2023.
 
 
 ### :hammer: Tech Stack / Built With
@@ -73,44 +71,36 @@ process, offering a seamless and user-friendly interface for car dealership mana
 <div align="center">
   <table>
     <tr>
-      <td>Seller Signup</td>
-      <td>Seller Login</td>
+      <th>Common Features</th>
+      <th>Teacher Features</th>
     </tr>
     <tr>
-      <td>Show New Cars</td>
-      <td>Show All Cars</td>
+      <td>Login/Sign in</td>
+      <td>Registration/Signup</td>
     </tr>
     <tr>
-      <td>Show Sold Cars</td>
-      <td>Show Rented Cars</td>
+      <td>Forget Password</td>
+      <td>Change Password</td>
     </tr>
     <tr>
-      <td>Show Used Cars</td>
-      <td>Show Car Requests</td>
+      <td>Profile Update</td>
+      <td>Profile View</td>
     </tr>
     <tr>
-      <td>Show Comments</td>
-      <td>Show Yearly Sales</td>
+      <td>Logout</td>
+      <td></td>
     </tr>
     <tr>
-      <td>Show Profits</td>
-      <td>Show Revenue</td>
+      <td>Course Management</td>
+      <td>Grading and Feedback</td>
     </tr>
     <tr>
-      <td>Show Total Sold Car Amount</td>
-      <td>Show Total Available Cars Number</td>
+      <td>Attendance Tracking</td>
+      <td>Communication Tools</td>
     </tr>
     <tr>
-      <td>Add New Car</td>
-      <td>Delete a Car</td>
-    </tr>
-    <tr>
-      <td>Edit Car Details</td>
-      <td>Show Car's Availability and Status</td>
-    </tr>
-    <tr>
-      <td>Accept Car Requests for Selling or Rent</td>
-      <td>Reject Car Requests for Selling or Rent</td>
+      <td>Analytics and Reporting</td>
+      <td>Assessment Authoring</td>
     </tr>
   </table>
 </div>
@@ -118,7 +108,7 @@ process, offering a seamless and user-friendly interface for car dealership mana
 
 
 ### :key: Environment Variables
-To run this project, you will need to add the following environment variables to your .env file
+To run this project, you will need to add the following environment variables to your database connection file
 
 `servername`
 
@@ -143,12 +133,12 @@ To run this project, you will need to add the following environment variables to
 Download the project
 
 ```bash
-https://github.com/the-sudipta/Car_Shop_Management_System
+https://github.com/the-sudipta/Tuition-Management-System.git
 ```
 
 Clone the Repository
 ```bash
-git clone https://github.com/the-sudipta/Car_Shop_Management_System.git
+git clone https://github.com/the-sudipta/Tuition-Management-System.git
 ```
 
 
@@ -167,7 +157,7 @@ git clone https://github.com/the-sudipta/Car_Shop_Management_System.git
 
 ## :wave: Contributing
 
-<a href="https://github.com/the-sudipta/Car_Shop_Management_System/graphs/contributors"> <img src="https://contrib.rocks/image?repo=Louis3797/awesome-readme-template" /> </a>
+<a href="https://github.com/the-sudipta/Tuition-Management-System/graphs/contributors"> <img src="https://contrib.rocks/image?repo=Louis3797/awesome-readme-template" /> </a>
 
 Contributions are always welcome!
 
@@ -178,7 +168,7 @@ Contributions are always welcome!
 
 This project is used by the following individuals:
 
-- Asif Abdullah Uday
+- Apurba Goon
 
 
 ## :warning: License
@@ -189,7 +179,7 @@ This project is licensed under the Creative Commons Attribution-NonCommercial-No
 
 Sudipta Kumar Das - - engineer.sudipta.kumar.das@gmail.com
 
-Project Link: [https://github.com/the-sudipta/Car_Shop_Management_System](https://github.com/the-sudipta/Car_Shop_Management_System)
+Project Link: [https://github.com/the-sudipta/Tuition-Management-System](https://github.com/the-sudipta/Tuition-Management-System)
 
 ## :gem: Acknowledgement
 - [JQuery](https://jquery.com/)
