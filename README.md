@@ -3,9 +3,9 @@
 <a href="#">
 <img src="https://raw.githubusercontent.com/the-sudipta/Car_Shop_Management_System/main/DOCUMENTATIONS/images/Car%20Shop%20Management%20System.png" alt="Logo" width="100" height="100">
 </a>
-<h3 align="center">Car Shop Management System</h3>
+<h3 align="center">Tuition Management System</h3>
 <p align="center">
-A website that makes your car selling, easy!
+A website to manage students and tutors
 <br/>
 <a href="https://github.com/the-sudipta/Car_Shop_Management_System/raw/main/DOCUMENTATIONS/Project_Manual_Car_Shop_Management_System.pdf" download>
     <strong>Explore the docs »</strong>
