@@ -31,14 +31,15 @@ A website to manage students and tutors
  ## :star2: About The Project
 
 ![Product Video Gif](https://github.com/the-sudipta/Tuition-Management-System/blob/main/DOCUMENTATIONS/images/Tuition%20management%20System%20trial.gif?raw=true?raw=true)
+
 <p style="text-align: justify;">
-This project is a comprehensive tuition management system designed to streamline educational administration for teachers. 
-It features user-friendly interfaces for logging in, registering, password management, and profile updates. Teachers can 
-efficiently manage courses, track student attendance, provide grading and feedback, and utilize communication tools. The 
-system also offers advanced analytics, reporting capabilities, and assessment authoring tools. Mid-term development focuses
-on implementing page layouts, PHP validation, database connections, and secure session management, while the final term 
-aims to refine prepared statements, enhance validation with JavaScript and AJAX, and ensure a polished, fully functional 
-web interface by December 2023.
+    This project is a comprehensive tuition management system designed to streamline educational administration for teachers. 
+    It features user-friendly interfaces for logging in, registering, password management, and profile updates. Teachers can 
+    efficiently manage courses, track student attendance, provide grading and feedback, and utilize communication tools. The 
+    system also offers advanced analytics, reporting capabilities, and assessment authoring tools. Mid-term development focuses
+    on implementing page layouts, PHP validation, database connections, and secure session management, while the final term 
+    aims to refine prepared statements, enhance validation with JavaScript and AJAX, and ensure a polished, fully functional 
+    web interface by December 2023.
 </p>
 
 ### :hammer: Tech Stack / Built With
