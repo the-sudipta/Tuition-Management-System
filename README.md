@@ -32,6 +32,7 @@ A website to manage students and tutors
 
 ![Product Video Gif](https://github.com/the-sudipta/Tuition-Management-System/blob/main/DOCUMENTATIONS/images/Tuition%20management%20System%20trial.gif?raw=true?raw=true)
 
+
 <p style="text-align: justify;">
     This project is a comprehensive tuition management system designed to streamline educational administration for teachers. 
     It features user-friendly interfaces for logging in, registering, password management, and profile updates. Teachers can 
